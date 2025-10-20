@@ -2,7 +2,7 @@
 
 class ApiService {
   constructor() {
-  this.baseURL = import.meta.env.VITE_API_URL || 'https://my-erp-backend-five.vercel.app/api';
+  this.baseURL = import.meta.env.VITE_API_URL || 'https://vercel-backend-tau-opal.vercel.app/api';
   this.token = null;
   
   console.log('🔧 API Service initialized with baseURL:', this.baseURL);
